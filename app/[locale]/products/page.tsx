@@ -1,47 +1,51 @@
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import Section from "@/components/Section";
-
-const products = [
-    {
-        id: 1,
-        name: "Ceylon Cinnamon Quills",
-        description: "Premium grade Alba cinnamon sticks, hand-rolled to perfection.",
-        price: "$25.00 / 100g",
-        image: "/images/hero-bg.png" // Reusing for now
-    },
-    {
-        id: 2,
-        name: "Cinnamon Powder",
-        description: "Finely ground authentic Ceylon cinnamon for baking and cooking.",
-        price: "$15.00 / 100g",
-        image: "/images/hero-bg.png"
-    },
-    {
-        id: 3,
-        name: "Leaf Oil",
-        description: "Steam distilled cinnamon leaf oil, perfect for aromatherapy.",
-        price: "$30.00 / 50ml",
-        image: "/images/hero-bg.png"
-    },
-    {
-        id: 4,
-        name: "Bark Oil",
-        description: "Potent and pure cinnamon bark oil for medicinal use.",
-        price: "$45.00 / 10ml",
-        image: "/images/hero-bg.png"
-    }
-];
+import { useTranslations } from "next-intl";
 
 export default function Products() {
+    const t = useTranslations("ProductsPage");
+    const tItems = useTranslations("ProductsPage.items");
+
+    const products = [
+        {
+            id: 1,
+            name: tItems("p1.name"),
+            description: tItems("p1.desc"),
+            price: tItems("p1.price"),
+            image: "/images/hero-bg.png"
+        },
+        {
+            id: 2,
+            name: tItems("p2.name"),
+            description: tItems("p2.desc"),
+            price: tItems("p2.price"),
+            image: "/images/hero-bg.png"
+        },
+        {
+            id: 3,
+            name: tItems("p3.name"),
+            description: tItems("p3.desc"),
+            price: tItems("p3.price"),
+            image: "/images/hero-bg.png"
+        },
+        {
+            id: 4,
+            name: tItems("p4.name"),
+            description: tItems("p4.desc"),
+            price: tItems("p4.price"),
+            image: "/images/hero-bg.png"
+        }
+    ];
+
     return (
         <main className="min-h-screen flex flex-col bg-background">
             <Navbar />
 
             <div className="bg-secondary pt-32 pb-16 px-6 text-center text-white">
-                <h1 className="text-4xl md:text-6xl font-serif mb-4">Our Collection</h1>
+                <h1 className="text-4xl md:text-6xl font-serif mb-4">{t("headerTitle")}</h1>
                 <p className="text-white/80 text-lg max-w-2xl mx-auto">
-                    From the plantation to your pantry, experience the finest quality.
+                    {t("headerDesc")}
                 </p>
             </div>
 
@@ -62,7 +66,7 @@ export default function Products() {
                                     <div className="flex items-center justify-between mt-4 border-t border-neutral-100 pt-4">
                                         <span className="font-bold text-primary">{product.price}</span>
                                         <button className="text-xs uppercase tracking-wider font-semibold hover:text-primary transition-colors">
-                                            Details
+                                            {t("detailsBtn")}
                                         </button>
                                     </div>
                                 </div>

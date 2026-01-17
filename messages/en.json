@@ -1,0 +1,113 @@
+{
+    "Navbar": {
+        "home": "Home",
+        "about": "About Us",
+        "products": "Products",
+        "contact": "Contact"
+    },
+    "LanguageSwitcher": {
+        "label": "Language",
+        "en": "English",
+        "si": "Sinhala",
+        "ar": "Arabic"
+    },
+    "Hero": {
+        "badge": "100% Authentic From Sri Lanka",
+        "title": "True Cinnamon",
+        "description": "Discover the exquisite aroma and refined taste of genuine Ceylon Cinnamon, harvested directly from our heritage plantations.",
+        "cta": "Explore Our Collection"
+    },
+    "Footer": {
+        "brandTitle": "True Cinnamon",
+        "brandDesc": "Bringing the finest Ceylon Cinnamon from our plantations directly to your table. Experience the true aroma and health benefits of authentic cinnamon.",
+        "quickLinks": "Quick Links",
+        "contactUs": "Contact Us",
+        "followUs": "Follow Us",
+        "address": "123 Cinnamon Gardens,<br />Colombo 07, Sri Lanka",
+        "copyright": "© {year} True Cinnamon. All rights reserved."
+    },
+    "Home": {
+        "introBadge": "The World's Finest Spice",
+        "introTitle": "Why Ceylon Cinnamon?",
+        "introDesc": "A Cinnamon variety native to Sri Lanka and is grown and manufactured in Sri Lanka is known as <strong>Ceylon Cinnamon</strong> or <strong>True Cinnamon</strong>. Produced from the plant <em>Cinnamomum zeylanicum</em>, pure Ceylon Cinnamon is celebrated globally for its delicate flavor, unique aroma, and numerous health benefits. Unlike common Cassia cinnamon, our True Cinnamon is ultra-low in coumarin and rich in antioxidants.",
+        "readStory": "Read Our Story",
+        "collectionBadge": "Our Collection",
+        "collectionTitle": "Premium Products",
+        "viewAll": "View All Products",
+        "products": {
+            "stickTitle": "Cinnamon Sticks",
+            "stickDesc": "Hand-peeled quills, perfectly rolled.",
+            "powderTitle": "Cinnamon Powder",
+            "powderDesc": "Finely ground for aromatic perfection.",
+            "oilTitle": "Cinnamon Oil",
+            "oilDesc": "Pure essential oil for wellness."
+        }
+    },
+    "About": {
+        "headerTitle": "Our Heritage",
+        "headerDesc": "The story of True Cinnamon is the story of Sri Lanka's finest spice.",
+        "processTitle": "The Art of Processing",
+        "processDesc1": "Processing and peeling Ceylon Cinnamon follows a tradition and a method unique to Sri Lanka. Leaves and twigs are separated from the harvested stick before peeling. Peeling cinnamon sticks is a complex skill to master, requiring dextrous handwork and a traditional set of tools.",
+        "processDesc2": "The end result of peeling is a delicate and long cinnamon stick carved out of the soft inner layer of the bark. Similar to a cigar in structure, Ceylon Cinnamon is pale golden in colour while sweet and refined in flavour and fragrance.",
+        "benefitsTitle": "Health Benefits",
+        "benefits": {
+            "lowCoumarinTitle": "Low Coumarin",
+            "lowCoumarinDesc": "Contains only 0.004% coumarin compared to Cassia's 5%, making it safe for daily consumption liver-friendly.",
+            "cognitiveTitle": "Cognitive Boost",
+            "cognitiveDesc": "Consuming Ceylon Cinnamon improves cognition, increases focus, and memory.",
+            "bloodSugarTitle": "Blood Sugar Control",
+            "bloodSugarDesc": "Helps regulate blood sugar levels and increases insulin sensitivity.",
+            "skinHealthTitle": "Skin Health",
+            "skinHealthDesc": "Cinnamon oil helps reduce skin diseases like acne and eczema.",
+            "antioxidantTitle": "Antioxidant Rich",
+            "antioxidantDesc": "Packed with powerful antioxidants that reduce inflammation.",
+            "heartHealthTitle": "Heart Health",
+            "heartHealthDesc": "Reduces risk of heart diseases by lowering cholesterol levels."
+        }
+    },
+    "ProductsPage": {
+        "headerTitle": "Our Collection",
+        "headerDesc": "From the plantation to your pantry, experience the finest quality.",
+        "detailsBtn": "Details",
+        "items": {
+            "p1": {
+                "name": "Ceylon Cinnamon Quills",
+                "desc": "Premium grade Alba cinnamon sticks, hand-rolled to perfection.",
+                "price": "$25.00 / 100g"
+            },
+            "p2": {
+                "name": "Cinnamon Powder",
+                "desc": "Finely ground authentic Ceylon cinnamon for baking and cooking.",
+                "price": "$15.00 / 100g"
+            },
+            "p3": {
+                "name": "Leaf Oil",
+                "desc": "Steam distilled cinnamon leaf oil, perfect for aromatherapy.",
+                "price": "$30.00 / 50ml"
+            },
+            "p4": {
+                "name": "Bark Oil",
+                "desc": "Potent and pure cinnamon bark oil for medicinal use.",
+                "price": "$45.00 / 10ml"
+            }
+        }
+    },
+    "Contact": {
+        "headerTitle": "Contact Us",
+        "headerDesc": "Get in touch with us for bulk orders and inquiries.",
+        "getInTouchTitle": "Get in Touch",
+        "getInTouchDesc": "We are available to answer any questions you may have about our products or services. Reach out to us and we'll respond as soon as we can.",
+        "visitUs": "Visit Us",
+        "callUs": "Call Us",
+        "emailUs": "Email Us",
+        "form": {
+            "name": "Name",
+            "email": "Email",
+            "message": "Message",
+            "placeholderName": "Your Name",
+            "placeholderEmail": "your@email.com",
+            "placeholderMessage": "How can we help you?",
+            "send": "Send Message"
+        }
+    }
+}

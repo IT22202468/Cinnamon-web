@@ -45,3 +45,11 @@ body {
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--font-playfair), serif;
 }
+
+/* Repeating divider background for section artwork */
+.repeat-divider {
+  background-image: url('/images/art.png');
+  background-repeat: repeat-x;
+  background-position: top center;
+  background-size: auto 100%;
+}

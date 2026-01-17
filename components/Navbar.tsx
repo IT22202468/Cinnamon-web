@@ -1,21 +1,26 @@
 "use client";
 
-import Link from "next/link";
+import { Link } from "@/navigation";
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Menu, X } from "lucide-react";
 import { cn } from "@/lib/utils";
+import { useTranslations } from "next-intl";
+import LanguageSwitcher from "./LanguageSwitcher";
 
-const navLinks = [
-    { href: "/", label: "Home" },
-    { href: "/about", label: "About Us" },
-    { href: "/products", label: "Products" },
-    { href: "/contact", label: "Contact" },
-];
+// navLinks moved inside component to useTranslations
 
 export default function Navbar() {
+    const t = useTranslations("Navbar");
     const [isScrolled, setIsScrolled] = useState(false);
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+
+    const navLinks = [
+        { href: "/", label: t("home") },
+        { href: "/about", label: t("about") },
+        { href: "/products", label: t("products") },
+        { href: "/contact", label: t("contact") },
+    ];
 
     useEffect(() => {
         const handleScroll = () => {
@@ -59,6 +64,9 @@ export default function Navbar() {
                             {link.label}
                         </Link>
                     ))}
+                    <div className={cn(isScrolled ? "text-foreground" : "text-white")}>
+                        <LanguageSwitcher />
+                    </div>
                 </div>
 
                 {/* Mobile Menu Button */}
@@ -93,6 +101,9 @@ export default function Navbar() {
                                 {link.label}
                             </Link>
                         ))}
+                        <div className="pt-4 border-t border-gray-100">
+                            <LanguageSwitcher />
+                        </div>
                     </motion.div>
                 )}
             </AnimatePresence>
