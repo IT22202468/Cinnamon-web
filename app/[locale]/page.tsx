@@ -32,10 +32,10 @@ export default function Home() {
             {t("readStory")} <ArrowRight className="ml-2 w-5 h-5" />
           </Link>
         </div>
-        <div
+        {/* <div
           className="mx-auto block w-full h-24 drop-shadow-sm repeat-divider mt-5"
           aria-hidden="true"
-        />
+        /> */}
       </Section>
 
       {/* Featured Products Preview (Placeholder) */}

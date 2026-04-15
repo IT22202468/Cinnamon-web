@@ -103,7 +103,6 @@ export default function Contact() {
                 </div>
             </Section>
 
-            <Footer />
         </main>
     );
 }
